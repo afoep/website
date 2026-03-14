@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family:
+    Work Sans,
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin-inline: auto;
+  margin-block: 0;
+
+  & #logo-row {
+    padding-block: 50px 0px;
+    margin-block: 0px 30px;
+    margin-left: 5px;
+  }
+
+  & #nav-row ul {
+    padding-inline-start: 0;
+    margin-bottom: 12px;
+    margin-inline: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 38px;
+
+    & li > a {
+      transition: all 0.2s;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding-block: 12px;
+      color: #005585;
+      text-decoration: none;
+
+      &:hover,
+      &.active {
+        color: #a3c5d9;
+      }
+
+      position: relative;
+
+      &.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -4px;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 4px 7px 4px;
+        border-color: transparent transparent #006cab transparent;
+      }
+    }
+  }
+
+  border-bottom: #006cab 1px solid;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 10;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  padding-top: 40.5px;
+  padding-bottom: 50px;
+  background-color: #f4f4f4;
+
+  & > .container > * {
+    padding-inline: 20px;
+  }
+
+  & p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+    max-width: 640px;
+    text-align: justify;
+    line-height: 30px;
+    margin-block: 20px;
+  }
+
+  & h1 {
+    margin-top: 0;
+    margin-bottom: 70.5px;
+    font-size: 34px;
+    font-weight: normal;
+    color: #005585;
+  }
+}
+
+aside {
+  margin-block: 50px;
+}
+
+footer {
+  color: #999999;
+}
+
+.carousel {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  margin: 20px;
+  align-items: center;
+  justify-items: sp;
+
+  & > * {
+    padding-inline: 25px;
+    flex: 0 0 20%;
+    scroll-snap-align: start;
+
+    & img {
+      width: 100%;
+    }
+  }
+}

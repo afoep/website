@@ -1,0 +1,113 @@
+baseURL      = 'https://www.afoep.at/'
+languageCode = 'de'
+title        = 'AFÖP - Akademischer Fachverein Österreichischer Pharmazeut_innen'
+
+[menus]
+  [[menus.main]]
+    name    = 'Start'
+    pageRef = '/'
+    weight  = 1
+  [[menus.main]]
+    name    = 'Über Uns'
+    pageRef = '/ueber-uns'
+    weight  = 10
+  [[menus.main]]
+    name    = 'Aktivitäten'
+    pageRef = '/aktivitaeten'
+    weight  = 20
+  [[menus.main]]
+    name    = 'Studium'
+    pageRef = '/studium'
+    weight  = 30
+  [[menus.main]]
+    name    = 'FAQ'
+    pageRef = '/faq'
+    weight  = 40
+  [[menus.main]]
+    name    = 'Mitgliedschaft'
+    pageRef = '/mitgliedschaft'
+    weight  = 50
+  [[menus.main]]
+    name    = 'Bulletin'
+    pageRef = '/bulletin'
+    weight  = 60
+  [[menus.main]]
+    name    = 'Kontakt'
+    pageRef = '/kontakt'
+    weight  = 70
+
+  [[menus.partners]]
+    name   = "Österreichische Apothekerkammer"
+    url    = "https://www.apotheker.or.at/"
+    weight = 1
+    [menus.partners.params]
+      image = "/images/partners/apothekerkammer.jpg"
+  [[menus.partners]]
+    name   = "Apoverlag"
+    url    = "https://www.apoverlag.at/"
+    weight = 2
+    [menus.partners.params]
+      image = "/images/partners/apoverlag.png"
+  [[menus.partners]]
+    name   = "FIP - International Pharmaceutical Federation"
+    url    = "https://www.fip.org/"
+    weight = 3
+    [menus.partners.params]
+      image = "/images/partners/fip.jpg"
+  [[menus.partners]]
+    name   = "AMSA"
+    url    = "https://www.amsa.at/"
+    weight = 4
+    [menus.partners.params]
+      image = "/images/partners/amsa.jpg"
+  [[menus.partners]]
+    name   = "Österreichischer Apothekerverband"
+    url    = "https://www.apothekerverband.at/"
+    weight = 5
+    [menus.partners.params]
+      image = "/images/partners/av.jpg"
+  [[menus.partners]]
+    name   = "Studo"
+    url    = "https://studo.com/#org=94ea5a284b"
+    weight = 6
+    [menus.partners.params]
+      image = "/images/partners/studo.png"
+  [[menus.partners]]
+    name   = "Herba Chemosan"
+    url    = "https://www.herba-chemosan.at/"
+    weight = 7
+    [menus.partners.params]
+      image = "/images/partners/herba.jpg"
+  [[menus.partners]]
+    name   = "Ball der Pharmazie"
+    url    = "https://www.pharmacieball.at/"
+    weight = 8
+    [menus.partners.params]
+      image = "/images/partners/bdp.jpg"
+  [[menus.partners]]
+    name   = "IPSF"
+    url    = "https://www.ipsf.org/"
+    weight = 9
+    [menus.partners.params]
+      image = "/images/partners/ipsf.jpg"
+  [[menus.partners]]
+    name   = "EPSA"
+    url    = "https://www.epsa-online.org/"
+    weight = 10
+    [menus.partners.params]
+      image = "/images/partners/epsa.jpg"
+  [[menus.partners]]
+    name   = "VAAÖ"
+    url    = "https://vaaoe.at/"
+    weight = 11
+    [menus.partners.params]
+      image = "/images/partners/vaaoe.jpg"
+
+[params]
+  description = 'Akademischer Fachverein Österreichischer Pharmazeut_innen'
+  footer      = 'Akademischer Fachverein Österreichischer Pharmazeut_innen / Elisabethstraße 27, 8010 Graz / ZVR 405502824'
+
+  [params.social]
+    facebook  = 'https://de-de.facebook.com/afoep/'
+    instagram = 'https://www.instagram.com/afoep/?hl=de'
+    linkedin  = 'https://www.linkedin.com/company/akademischer-fachverein-%C3%B6sterreichischer-pharmazeut_innen'
