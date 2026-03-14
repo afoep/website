@@ -1,12 +1,11 @@
 baseURL      = 'https://www.afoep.at/'
 languageCode = 'de'
-title        = 'AFÖP - Akademischer Fachverein Österreichischer Pharmazeut_innen'
+title        = 'AFÖP'
 
 [params]
-  description = 'Akademischer Fachverein Österreichischer Pharmazeut_innen'
-  address     = 'Akademischer Fachverein Österreichischer Pharmazeut_innen / Elisabethstraße 27, 8010 Graz / ZVR 405502824'
+  address = 'Akademischer Fachverein Österreichischer Pharmazeut_innen / Elisabethstraße 27, 8010 Graz / ZVR 405502824'
 
   [params.social]
-    facebook  = 'https://de-de.facebook.com/afoep/'
-    instagram = 'https://www.instagram.com/afoep/?hl=de'
+    facebook  = 'https://facebook.com/afoep/'
+    instagram = 'https://www.instagram.com/afoep/'
     linkedin  = 'https://www.linkedin.com/company/akademischer-fachverein-%C3%B6sterreichischer-pharmazeut_innen'
