@@ -1,5 +1,8 @@
 ---
 title: Akademischer Fachverein Österreichischer Pharmazeut_innen
+menu:
+  main: {name: "Start"}
+weight: 10
 ---
 
 # WILLKOMMEN BEIM AFÖP!

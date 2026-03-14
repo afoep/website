@@ -1,0 +1,54 @@
+[[partners]]
+  name  = "Österreichische Apothekerkammer"
+  url   = "https://www.apotheker.or.at/"
+  image = "/images/partners/apothekerkammer.jpg"
+
+[[partners]]
+  name  = "Apoverlag"
+  url   = "https://www.apoverlag.at/"
+  image = "/images/partners/apoverlag.png"
+
+[[partners]]
+  name  = "FIP - International Pharmaceutical Federation"
+  url   = "https://www.fip.org/"
+  image = "/images/partners/fip.jpg"
+
+[[partners]]
+  name  = "AMSA"
+  url   = "https://www.amsa.at/"
+  image = "/images/partners/amsa.jpg"
+
+[[partners]]
+  name  = "Österreichischer Apothekerverband"
+  url   = "https://www.apothekerverband.at/"
+  image = "/images/partners/av.jpg"
+
+[[partners]]
+  name  = "Studo"
+  url   = "https://studo.com/#org=94ea5a284b"
+  image = "/images/partners/studo.png"
+
+[[partners]]
+  name  = "Herba Chemosan"
+  url   = "https://www.herba-chemosan.at/"
+  image = "/images/partners/herba.jpg"
+
+[[partners]]
+  name  = "Ball der Pharmazie"
+  url   = "https://www.pharmacieball.at/"
+  image = "/images/partners/bdp.jpg"
+
+[[partners]]
+  name  = "IPSF"
+  url   = "https://www.ipsf.org/"
+  image = "/images/partners/ipsf.jpg"
+
+[[partners]]
+  name  = "EPSA"
+  url   = "https://www.epsa-online.org/"
+  image = "/images/partners/epsa.jpg"
+
+[[partners]]
+  name  = "VAAÖ"
+  url   = "https://vaaoe.at/"
+  image = "/images/partners/vaaoe.jpg"

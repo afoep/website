@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ .Title }} | AFÖP</title>
-    <link rel="icon" href="favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
     {{ $css := resources.Get "index.css" | minify }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+    {{ $js := resources.Get "index.js" | minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
   </head>
   <body>
     <header>
@@ -17,22 +19,30 @@
         <nav id="nav-row">
           <ul>
             {{ range site.Menus.main }}
-            <li><a href="{{ .URL }}" {{ if ($.Page.IsMenuCurrent "main" .) }}class="active"{{ end }}>{{ .Name }}</a></li>
+            <li>
+              <a
+                href="{{ .URL }}"
+                class='{{ if ($.Page.IsMenuCurrent "main" .) }}active{{ end }}'
+                >{{ .Name }}</a
+              >
+            </li>
             {{ end }}
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div class="container">{{ .Content }}</div>
-    </main>
-    <aside style="padding-inline: 60px">
       <div class="container">
-        <ul id="carousel" class="carousel">
-          {{ range site.Menus.partners }}
+        <div>{{ .Content }}</div>
+      </div>
+    </main>
+    <aside>
+      <div class="container">
+        <ul id="partner-carousel" is="afoep-carousel">
+          {{ range site.Data.partners.partners }}
           <li>
-            <a href="{{ .URL }}">
-              <img src="{{ .Params.image }}" alt="{{ .Name }}">
+            <a href="{{ .url }}">
+              <img src="{{ .image }}" alt="{{ .name }}" />
             </a>
           </li>
           {{ end }}
@@ -42,11 +52,7 @@
     <footer>
       <div class="container">
         <nav>
-          <span>
-            Akademischer Fachverein Österreichischer Pharmazeut_innen /
-            Elisabethstraße 27, 8010 Graz / ZVR 405502824
-          </span>
-          <ul>
+          <span>{{ site.Params.address }}</span>
         </nav>
       </div>
     </footer>
