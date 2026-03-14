@@ -16,7 +16,7 @@ Du erreichst uns auch auf [Facebook](http://facebook.com/afoep/) und [Instagram]
 
 <!-- sidebar -->
 
-{{< maps "!1m18!1m12!1m3!1d3326.0157552035375!2d15.445849116749626!3d47.07526124148714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e35db23aa70a1%3A0x312082de69e4a07e!2sschubertNEST!5e0!3m2!1sde!2sat!4v1752501808340!5m2!1sde!2sat" >}}
+{{< maps "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.2749544045196!2d15.4507881860514!3d47.07407148630802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e35db23aa70a1%3A0x312082de69e4a07e!2sschubertNEST!5e0!3m2!1sde!2sat!4v1773522669126!5m2!1sde!2sat" >}}
 
 **AFÖP HEADQUATER**
 
