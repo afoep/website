@@ -1,0 +1,11 @@
+<div class="team">
+  {{ range site.Data.team }}
+    <div class="member">
+      <div class="member-photo">
+        <img src="{{ .photo }}" alt="{{ .name }}">
+      </div>
+      <h3>{{ .name }}</h3>
+      <p>{{ .position }} ({{ .place }})</p>
+    </div>
+  {{ end }}
+</div>

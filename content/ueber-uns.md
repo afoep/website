@@ -40,4 +40,4 @@ Alle Pharmaziestudierenden Österreichs können Mitglieder beim AFÖP werden und
 
 ## Team
 
-team imagegrid
+{{< team >}}
