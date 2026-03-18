@@ -21,7 +21,7 @@ Du erreichst uns auch auf [Facebook](http://facebook.com/afoep/) und [Instagram]
 **AFÖP HEADQUATER**
 
 Elisabethstraße 27 / Schubertnest\
-AT- 8010 Graz\
+8010 Graz\
 ZVR: 405502824\
 [office@afoep.at](mailto:office@afoep.at)\
 [afoep.at](https://afoep.at)
