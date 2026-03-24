@@ -34,60 +34,62 @@ main {
 }
 
 header {
-  margin-inline: 0;
   margin-block: 0;
+}
 
-  & #logo-row {
-    padding-block: 50px 0px;
-    margin-block: 0px 30px;
-    margin-left: 5px;
-  }
+header #logo-row {
+  padding-block: 50px 0;
+  margin-block: 0 30px;
+  margin-left: 5px;
+}
 
-  & #nav-row ul {
-    padding-inline-start: 0;
-    margin-bottom: 11px;
-    margin-inline: 20px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 38px;
+#nav-row {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  align-self: stretch;
+  background: white;
+  border-bottom: 1px solid #006cab;
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
 
-    & li > a {
-      transition: all 0.2s;
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: 1px;
-      padding-block: 12px;
-      color: #005585;
-      text-decoration: none;
+#nav-row ul {
+  padding-inline-start: 0;
+  margin: 10px 20px 11px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
-      &:hover,
-      &.active {
-        color: #a3c5d9;
-      }
-
-      position: relative;
-
-      &.active::after {
-        content: "";
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        margin-left: -4px;
-        width: 0px;
-        height: 0px;
-        border-style: solid;
-        border-width: 0 4px 7px 4px;
-        border-color: transparent transparent #006cab transparent;
-      }
-    }
-  }
-
-  border-bottom: #006cab 1px solid;
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+#nav-row li > a {
+  transition: all 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-block: 12px;
+  color: #005585;
+  text-decoration: none;
   position: relative;
-  z-index: 10;
+}
+
+#nav-row li > a:hover,
+#nav-row li > a.active {
+  color: #a3c5d9;
+}
+
+#nav-row li > a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 7px 4px;
+  border-color: transparent transparent #006cab transparent;
 }
 
 * {

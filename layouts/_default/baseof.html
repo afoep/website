@@ -16,21 +16,22 @@
         <div id="logo-row">
           <img id="logo" src="/images/logo2x.png" width="246" height="80" />
         </div>
-        <nav id="nav-row">
-          <ul>
-            {{ range site.Menus.main }}
-            <li>
-              <a
-                href="{{ .URL }}"
-                class='{{ if ($.Page.IsMenuCurrent "main" .) }}active{{ end }}'
-                >{{ .Name }}</a
-              >
-            </li>
-            {{ end }}
-          </ul>
-        </nav>
       </div>
     </header>
+    <nav id="nav-row">
+      <div class="container">
+        <ul>
+          {{ range site.Menus.main }}
+          <li>
+            <a
+              href="{{ .URL }}"
+              class='{{ if ($.Page.IsMenuCurrent "main" .) }}active{{ end }}'
+              >{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
     <main>
       <div class="container">
         <div>{{ .Content }}</div>
