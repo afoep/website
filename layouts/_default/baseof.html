@@ -36,7 +36,7 @@
         <div>{{ .Content }}</div>
       </div>
     </main>
-    <aside>
+    <footer>
       <div class="container">
         <ul id="partner-carousel" is="afoep-carousel">
           {{ range site.Data.partners.partners }}
@@ -48,12 +48,12 @@
           {{ end }}
         </ul>
       </div>
-    </aside>
-    <footer>
       <div class="container">
-        <nav>
-          <span>{{ site.Params.address }}</span>
-        </nav>
+        <p>
+          <span>© AFÖP 2011–{{ now.Year }}</span>
+          <span class="sep">|</span>
+          <a href="/impressum">Impressum</a>
+        </p>
       </div>
     </footer>
   </body>

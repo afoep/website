@@ -1,7 +1,5 @@
 ---
 title: Impressum
-menus: [main]
-weight: 90
 ---
 
 ## Impressum

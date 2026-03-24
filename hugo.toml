@@ -3,7 +3,7 @@ languageCode = 'de'
 title        = 'AFÖP'
 
 [params]
-  address = 'Akademischer Fachverein Österreichischer Pharmazeut_innen / Kaiserstraße 40/10, 1070 Wien / ZVR 405502824'
+  address = '...'
 
   [params.social]
     facebook  = 'https://facebook.com/afoep/'
