@@ -136,6 +136,28 @@ footer a:hover {
   text-decoration: underline;
 }
 
+
+.footer-social img {
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.footer-social img:hover {
+  opacity: 1;
+}
+
+.footer-social img {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.footer-social a:hover {
+  text-decoration: none;
+}
+
 [is="afoep-carousel"] {
   list-style: none;
   display: flex;

@@ -53,6 +53,14 @@
           <span>© AFÖP 2011–{{ now.Year }}</span>
           <span class="sep">|</span>
           <a href="/impressum">Impressum</a>
+          <span class="sep">|</span>
+          <span class="footer-social">
+            {{ range $name, $url := site.Params.social }}
+              <a href="{{ $url }}" target="_blank" rel="noopener me">
+                <img src="/images/social/{{ $name }}.svg" alt="{{ $name }}">
+              </a>
+            {{ end }}
+          </span>
         </p>
       </div>
     </footer>
